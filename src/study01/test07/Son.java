@@ -19,6 +19,7 @@ public class Son extends Mother {//합법적으로 맺어줌
 		
 		Son s = new Son();//생성자의 호출(메모리를 생성할때 무조건 실행되는 것)
 		s.cook();//메소드의 호출
+		
 		s.cook("a");
 	}
 
