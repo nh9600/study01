@@ -29,7 +29,7 @@ public class DoubleList {
 				}
 			}
 			System.out.println(nums);
-			System.out.println(nums.get(i));
+			System.out.println(nums.get(i));	
 			
 
 		}
