@@ -13,7 +13,7 @@ public class DoubleList {
 		//	doubleList.add(Double.parseDouble(strList.get(i)));//스트링을 더블로 바꿈
 
 		//System.out.println(doubleList);//방에 하나씩 집어 넣음
-		//System.out.println(doubleList.get(0)+doubleList.get(1));
+		//System.out.println(doubleList.get(0)+doubleList.get(1));//0번째방 1번째방 
 		
 		ArrayList<Double> nums = new ArrayList<Double>();//순서대로 정렬하는게 빠름 
 		nums.add(1.1);
