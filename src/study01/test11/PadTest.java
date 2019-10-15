@@ -8,6 +8,7 @@ public class PadTest {
 			str +="0";
 			System.out.println(str);
 		}
+		
 	}
 
 }
