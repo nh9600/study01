@@ -1,13 +1,10 @@
 package study02.user;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Scanner;
-
-import study02.ConnectionTest2;
 
 public class Execute {
 	Connection con = DBCon.getCon();
@@ -84,15 +81,38 @@ public class Execute {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
+	}
 		
-	}
-	
-	public static void main(String[]args) {
-		Execute ec = new Execute();
-		ec.insert();
-		ec.delete();
-		ec.select();
-		ec.update();
-	}
 
+	void initResponse() {
+		String res = "";
+        while(!res.equals("p")) {
+		System.out.println("원하는 서비스 번호를 입력하세요.");
+		System.out.println("1.유저 생성");
+		System.out.println("2.유저 삭제");
+		System.out.println("3.유저 수정");
+		System.out.println("4.유저 조회");
+		System.out.println("q.종료");
+		res=scan.nextLine();
+		if("1".equals(res)) {
+			
+		}else if("2".equals(res)) {
+			
+		}else if("3".equals(res)) {
+			
+		}else if("4".equals(res)) {
+			
+		}else if("q".equals(res)) {
+			System.out.println("시스템이 종료됩니다.");
+		}else
+		{			
+		System.out.println("입력하신 서비스번호가 없습니다.");
+		}
+	}
+	}
+		public static void main(String[]args) {
+			Execute ec = new Execute();
+			ec.initResponse();
+	}
 }
+
