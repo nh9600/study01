@@ -23,6 +23,7 @@ public class MapTest2 {
 			System.out.println("key:"+key+",value:"+map.get(key));
 		}
 		
+		
 	}
 
 }

@@ -23,7 +23,7 @@ public class DBCon {
 	}
 	
 	private static Connection con;
-	public static Connection getCon() {//효율적..
+	public static Connection getCon() {//여기저기서 쓸 수 있도록 퍼블릭
 		if(con==null) {
 			try {
 				con = DriverManager.getConnection(URL,ID,PWD);
