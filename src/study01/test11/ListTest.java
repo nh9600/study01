@@ -20,11 +20,11 @@ public class ListTest {
 		list2.add("3");
 		System.out.println(list1);//[1,2,3]
 		System.out.println(list2);//[1,2,3]
-		list1.remove(0);
+		list1.remove(0);//0번째 방 삭제
 		list2.remove(0);
 		System.out.println(list1);//[2,3]
 		System.out.println(list2);//[2,3]
-		list1.set(0,"4");
+		list1.set(0,"4");//0번째 방값을 4로 변경
 		list2.set(0,"4");
 		System.out.println(list1);//[4,3]
 		System.out.println(list2);//[4,3]
